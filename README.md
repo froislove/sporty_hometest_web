@@ -23,8 +23,10 @@ A modular-driven framework with layered architecture was chosen.
 #### Installation
 
 ```bash
-git clone https://github.com/froislove/sporty_hometest.git
-cd sporty_hometest
+git clone https://github.com/froislove/web.git
+cd web
+python -m venv venv
+source venv/bin/activate
 pip install -r requirements.txt
 ```
 
